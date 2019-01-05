@@ -11,9 +11,9 @@ namespace MultiplesOf3And5
         static void Main(string[] args)
         {
             MultiplesOf3And5 multipleObj = new MultiplesOf3And5();
-            Console.WriteLine("Sum of all the multiples of 3 or 5 below 1000: "
+            Console.WriteLine("Sum of all the multiples of 3 or 5 below 1000 is : "
                 + multipleObj.FindSumOfAllTheMultiplesOf3And5Below1000());
-
+            Console.WriteLine();
         }
         private long FindSumOfAllTheMultiplesOf3And5Below1000()
         {
